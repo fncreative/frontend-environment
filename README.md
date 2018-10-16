@@ -1,30 +1,53 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 26 - Frontend Tooling & React
-===
+# Cowsay React
 
-## Submission Instructions
-* Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository 
-  
-## Learning Objectives  
-* Students will be able to configure webpack to compile JS and SASS into a bundle
-* Students will be able to configure babel to transpile JSX and ES6 to ES5 javascript
-* Students will be able to create and render react components to the DOM
-* Students will be able to add event listeners to react components 
-* Students will be able to update react component state
+This is a basic react front end that will generate a Cowsay Cow and a random ipsum saying. ''
+## Getting Started
 
-#### Feature Tasks  
-Create the following component
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-###### App
-* Should contain the entire application's view and state
-* Should have a property on the state called content 
-* Should create a view with the following display
-  * A heading with the title "Generate Cowsay Lorem"
-  * A Button that displays "click me"
-    * `onClick` the button should generate new content on the app state using cowsay and faker
-  * A pre tag that displays the App state (content)
+### Prerequisites
 
-#### Stretch Goal 
-* add a select menu that enables you to change the type of cowfile currently being used
+You must have NodeJS installed along with either NPM or Yarn.
 
-#### Documentation  
-Write a description of the project in your README.md
+### Installing
+
+Copy the link from the github repository
+In the command line, navigate to the parent directory where you want to store this project
+In the command line, type:
+```
+git clone <repository url>
+```
+Once the project files are there, type:
+```
+npm install
+```
+or
+```
+yarn i
+```
+
+## To Run
+
+```
+In terminal, navigate to the cloned repo and type: 'npm run watch' 
+the browser will open and you will see a cow. 
+Click the generate button to generate more text
+```
+
+## Built With
+
+* [NodeJS](https://nodejs.org) - The javascript runtime used
+* [Eslint](https://eslint.org/) - Coding style linter that keeps you in line
+* [Faker](https://www.npmjs.com/package/faker) - A useful package for generating fake content
+* [React](https://reactjs.org/) - A dynamic web application framework
+* [Babel](https://babeljs.io/) - A javascript compiler
+* [Webpack](https://webpack.js.org/) - A robust bundling tool
+* [Cowsay](https://www.npmjs.com/package/cowsay) - A cow generator
+
+## Authors
+
+* [**Daniel Frey**](http://github.com/fncreative)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
